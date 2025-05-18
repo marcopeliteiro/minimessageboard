@@ -1,0 +1,1 @@
+Mini message board project from the Odin Project using node, express and ejs.
