@@ -1,0 +1,10 @@
+body{
+font:
+  1.2rem "Fira Sans",
+  sans-serif;
+}
+
+.flexCont{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+<head>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<h1><%=title%></h1>
+<a href="/new">Click to create new message</a>
+<% messages.forEach((message) => {%>
+    <h4><%= message.user %></h4>
+    <p><%= message.text %></p>
+    <p><%= message.added %></p>
+    <a href="/details/<%=message.user%>/<%=message.text%>/<%=message.added%>">Details</a>
+<%});%>
